@@ -14,10 +14,14 @@ The process begins with the data source. For this project, the data is sourced f
 ## Data Ingestion
 The next step involves ingesting the data into the Azure platform. Azure Data Factory is used for this purpose. It is a cloud-based data integration service that allows you to create data-driven workflows for orchestrating and automating data movement and data transformation. Data Factory enables the extraction of data from various sources, in this case, <a href = "https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/tree/main/data"> GitHub</a>, and then loads the data into a centralized storage using pipeline for further processing.
 
+![Pipeline](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/pipeline.png "Pipeline")
 
-
-Raw Data Storage
+### Raw Data Storage
 Once ingested, the data is stored in Azure Data Lake Storage Gen2. This is an enterprise-wide hyper-scale repository for big data analytics workloads. It combines the capabilities of Azure Data Lake Storage Gen1 with Azure Blob Storage, providing a platform that is optimized for analytics. The data is stored in its raw form, making it available for processing and analysis.
+
+![Azue Data Lake Gen 2 Storage Container](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/strorage%20container.png "Azure Data Lake Storage")
+
+![Azue Data Lake Gen 2 Eaw Storage Container](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/raw.png "Raw Storage")
 
 Data Transformation
 Azure Databricks is used to transform the raw data. It is an analytics platform optimized for the Microsoft Azure cloud services platform. Databricks offers a collaborative environment with a workspace for data scientists, data engineers, and business analysts to work together. Data transformation involves cleaning, aggregating, and preparing the data for analysis. This step is crucial to ensure that the data is in the right format and quality to derive meaningful insights.
