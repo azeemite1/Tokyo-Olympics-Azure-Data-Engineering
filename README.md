@@ -38,5 +38,18 @@ The transformed data is then stored again in Azure Data Lake Storage Gen2, but t
 ## Analytics
 Azure Synapse Analytics, previously known as Azure SQL Data Warehouse, is used to perform analytics on the processed data. It is an analytics service that brings together enterprise data warehousing and Big Data analytics. It offers a unified experience to ingest, prepare, manage, and serve data for immediate BI and machine learning needs.
 
+![Azure Synapse Analytics](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/synapse.png "Azure Synapse Analytics")
+
+
+![Azure Synapse Analytics](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/synapse1.png "Azure Synapse Analytics")
+
 ## Visualisation/Dashboard
 Finally, the insights derived from the analytics are visualized using Microsoft Power BI. This is a suite of business analytics tools that deliver insights throughout your organization. It enables connecting to hundreds of data sources, simplifying data prep, and driving ad hoc analysis. Power BI provides a platform to create reports and dashboards that are interactive, and can be shared with others.
+
+![Loading Serveless DB into Power BI](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/PowerBILoading.png "Loading Serveless DB into Power BI")
+
+![Loading Serveless DB into Power BI](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/TableSelection.png "Table Selection into Power BI")
+
+![Loading Serveless DB into Power BI](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/PQ.png "Power Query Editor")
+
+![Loading Serveless DB into Power BI](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/model.png "Data Model")
