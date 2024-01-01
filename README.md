@@ -5,7 +5,8 @@ In an age where data is as vital as the events themselves, the Azure Data Engine
 
 ## Workflow Overview
 
-![]https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/Azure%20Data%20Engineering%20Project%20Workflow.jpg
+![Azure Data Engineering Project Workflow](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/Azure%20Data%20Engineering%20Project%20Workflow.jpg "Azure Data Engineering Project Workflow")
+
 
 ## Data Source
 The process begins with the data source. For this project, the data is sourced from <a href = "https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/tree/main/data"> GitHub</a>, which suggests that the raw data for the Tokyo Olympics 2020 is stored in a repository on GitHub, making it accessible and version-controlled. This data can include various datasets such as athlete profiles, event schedules, results, and more.
