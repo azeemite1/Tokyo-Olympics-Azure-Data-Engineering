@@ -57,6 +57,3 @@ Finally, the insights derived from the analytics are visualized using Microsoft 
 Final Dashboard View
 
 ![Dashboard View in Power BI](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/dashboard.png "Dashbaord View in Power BI")
-
-Interact with Dashboard
-<iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNTNkMmI1MjQtZWQzYS00MjllLTkyZjgtZGVmNGVlMWUyODMwIiwidCI6ImMyYjRiYzA1LTE1MGEtNDNjZS1hYWFhLTk4NWVmYTBjN2JjZiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
