@@ -16,21 +16,27 @@ The next step involves ingesting the data into the Azure platform. Azure Data Fa
 
 ![Pipeline](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/pipeline.png "Pipeline")
 
-### Raw Data Storage
+## Raw Data Storage
 Once ingested, the data is stored in Azure Data Lake Storage Gen2. This is an enterprise-wide hyper-scale repository for big data analytics workloads. It combines the capabilities of Azure Data Lake Storage Gen1 with Azure Blob Storage, providing a platform that is optimized for analytics. The data is stored in its raw form, making it available for processing and analysis.
 
 ![Azue Data Lake Gen 2 Storage Container](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/strorage%20container.png "Azure Data Lake Storage")
 
 ![Azue Data Lake Gen 2 Eaw Storage Container](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/raw.png "Raw Storage")
 
-Data Transformation
+## Data Transformation
 Azure Databricks is used to transform the raw data. It is an analytics platform optimized for the Microsoft Azure cloud services platform. Databricks offers a collaborative environment with a workspace for data scientists, data engineers, and business analysts to work together. Data transformation involves cleaning, aggregating, and preparing the data for analysis. This step is crucial to ensure that the data is in the right format and quality to derive meaningful insights.
 
-Transformed Data Storage
+![Transformation Processes](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/databricks.png "Transformation Processes")
+
+![Transformation Processes](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/dbview.png "Transformation Processes")
+
+## Transformed Data Storage
 The transformed data is then stored again in Azure Data Lake Storage Gen2, but this time, it is stored in a processed form that is optimized for querying and analysis. This separation of raw and transformed data storage allows for more organized data management and governance.
 
-Analytics
+![Transformed](https://github.com/azeemite1/Tokyo-Olympics-fabric-end-to-end/blob/main/transformed.png "Transformed")
+
+## Analytics
 Azure Synapse Analytics, previously known as Azure SQL Data Warehouse, is used to perform analytics on the processed data. It is an analytics service that brings together enterprise data warehousing and Big Data analytics. It offers a unified experience to ingest, prepare, manage, and serve data for immediate BI and machine learning needs.
 
-Visualisation/Dashboard
+## Visualisation/Dashboard
 Finally, the insights derived from the analytics are visualized using Microsoft Power BI. This is a suite of business analytics tools that deliver insights throughout your organization. It enables connecting to hundreds of data sources, simplifying data prep, and driving ad hoc analysis. Power BI provides a platform to create reports and dashboards that are interactive, and can be shared with others.
